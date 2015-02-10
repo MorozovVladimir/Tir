@@ -34,20 +34,20 @@
     <omit-trace-statements>true</omit-trace-statements>
     <verbose-stacktraces>false</verbose-stacktraces>
     <source-path append="true">
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\code</path-element>
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\lib</path-element>
+      <path-element>D:\Work\personal\Tir\src\code</path-element>
+      <path-element>D:\Work\personal\Tir\src\lib</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\lib\as3corelib.swc</path-element>
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\lib\bulk_loader.swc</path-element>
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\lib\greensock.swc</path-element>
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\lib\nape-release.swc</path-element>
-      <path-element>D:\Work\LevelUp\flash\test\Tir\src\swc\main.swc</path-element>
+      <path-element>D:\Work\personal\Tir\src\lib\as3corelib.swc</path-element>
+      <path-element>D:\Work\personal\Tir\src\lib\bulk_loader.swc</path-element>
+      <path-element>D:\Work\personal\Tir\src\lib\greensock.swc</path-element>
+      <path-element>D:\Work\personal\Tir\src\lib\nape-release.swc</path-element>
+      <path-element>D:\Work\personal\Tir\src\swc\main.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\Work\LevelUp\flash\test\Tir\src\code\com\test\tir\core\TirMain.as</path-element>
+    <path-element>D:\Work\personal\Tir\src\code\com\test\tir\core\TirMain.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

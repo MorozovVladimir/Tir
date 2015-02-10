@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="out\Tir.swf" />
+    <movie path="bin\Tir.swf" />
     <movie fps="30" />
     <movie width="800" />
     <movie height="600" />
