@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Tir">
+    <configurations>
+      <configuration name="Tir" pure-as="true" main-class="com.test.tir.core.TirMain" output-file="Tir.swf" output-folder="$MODULE_DIR$/out" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="10cd8064-f4ca-41d4-a3d2-8b7663b3e4dd">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="25a77ace-9a6b-444e-ae3f-8f74c29523e2">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="87d553e3-eef8-49df-a800-8546e66cdc7c">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+          </map>
+          <option name="resourceFilesMode" value="None" />
+          <option name="additionalOptions" value="-swf-version=13 -use-network=false" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="TirDebug" pure-as="true" main-class="com.test.tir.core.TirMain" output-file="TilLocal.swf" output-folder="$MODULE_DIR$/out" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="261a822c-a0c5-462a-acac-faaad1743c6f">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="817a2cf5-a392-424e-8385-401032ac889e">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="8b4893cf-8eb2-4154-801a-c54601f814a1">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <option name="resourceFilesMode" value="None" />
+          <option name="additionalOptions" value="-swf-version=13 -use-network=false" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/code" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="10cd8064-f4ca-41d4-a3d2-8b7663b3e4dd" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/swc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/src/swc" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="25a77ace-9a6b-444e-ae3f-8f74c29523e2" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="87d553e3-eef8-49df-a800-8546e66cdc7c" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/src/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="261a822c-a0c5-462a-acac-faaad1743c6f" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/swc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/src/swc" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="817a2cf5-a392-424e-8385-401032ac889e" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8b4893cf-8eb2-4154-801a-c54601f814a1" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/src/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

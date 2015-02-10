@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config version="1.0.0.20120830">
+	<assets>
+		<asset name="game" 	path="assets/game.swf" 	type="media" 	checkLoad="1"/>
+		<asset name="scenes" 	path="assets/scenes.swf" 	type="media" 	checkLoad="1"/>
+		<asset name="popups" 	path="assets/popups.swf" 	type="media" 	checkLoad="1"/>
+		<asset name="ui"		path="assets/ui.swf" 	type="media" 	checkLoad="1"/>
+
+		<asset name="pd_bullet" 	path="particles/bullet.pex" 		type="text" 	checkLoad="1"/>
+		<asset name="pi_bullet" 	path="particles/bullet.png" 		type="image" 	checkLoad="1"/>
+
+		<asset name="pd_explode" 	path="particles/explode.pex" 	type="text" 	checkLoad="1"/>
+		<asset name="pi_explode" 	path="particles/explode.png" 	type="image" 	checkLoad="1"/>
+		
+	</assets>
+	<!-- насторойки игры -->
+	<params countTarget="20" speed="1" time="1"/>
+</config>
