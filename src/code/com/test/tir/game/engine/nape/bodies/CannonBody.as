@@ -72,9 +72,6 @@ package com.test.tir.game.engine.nape.bodies
 		{
 			super.createView(name);
 			viewClip.pivotY += 10;
-
-
-		//	effect = space.gameFieldInst.createEffect(AssetNames.PARTICLE_SUN);
 		}
 
 		private function createJoins(mainPos: Vec2): void
@@ -135,12 +132,6 @@ package com.test.tir.game.engine.nape.bodies
 			var direction:Vec2 = bodyInst.worldCOM.sub(barrel.worldCOM);
 
 			var bullet: BulletBody = new BulletBody(space, Material.steel(), initPos, direction, bodyInst.rotation);
-			  trace(5555555)
-			/*
-			effect.x = initPos.x;
-			effect.y = initPos.y;
-			effect.start();
-			*/
 		}
 
 		override public function destroy(): void
